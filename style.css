@@ -1,0 +1,40 @@
+.menu{
+    list-style: none;
+    border-bottom: 1px red solid;/*Создание линии снизу solid*/
+    padding-bottom: 20px; /*Отступ линии*/
+}
+
+li{
+    display:inline;/*Выравнивание текста в строчку*/
+    margin-right: 60px;/*Отступ компонентов друг от друга*/
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    background: green;
+    border: 10px yellow solid;
+    padding: 10px/*Длина выделения*/ 14px/*Ширина выделения*/; 
+}
+
+.check{
+    color: red;
+    background: orange;
+    border: 10px green solid;
+    padding: 10px 14px 10px 14px;
+}
+
+a:hover{
+    color: red;
+    background-color: aqua;
+}
+
+/*a:link{             //Отметить другим цветом посещённые страницы
+    color: violet;
+    background-color: orangered;
+}
+
+a:visited{
+    color: blueviolet;
+    background-color: orange;
+}*/
